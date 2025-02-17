@@ -87,27 +87,6 @@ You can use the flutter_dotenv package to load environment variables.
     charts_flutter: For rendering interactive charts to display historical forex data.
     http: For making network requests to fetch forex data(Not used websockets as paid Api key was not available )
 
-## Folder Structure:
-
-lib/
-├── core/
-│   ├── network/
-│   │   ├── network_cubit.dart
-│   │   └── network_state.dart
-│   ├── utils/
-│   └── widgets/
-├── repository/
-│   └── forex_repository.dart
-├── models/
-│   └── forex_price.dart
-├── screens/
-│   ├── markets_screen.dart
-│   └── history_screen.dart
-├── bloc/
-│   ├── forex_bloc.dart
-│   └── forex_event.dart
-└── main.dart
-
 
 
 ## Acknowledgments
